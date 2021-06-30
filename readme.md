@@ -4,12 +4,12 @@ Interaction occurs through the GameController.
 
 #Usage
 To start up a game, create a new GameController and provide a name for each player:
-```aidl
+```
 List<String> names ....
 GameController gameController = new GameController(names);
 ```
 Then scores can be added one by one. For example, here is how you would add a score of eight
-```aidl
+```
 List<Boolean> eightPins = Arrays.asList(true, true, false, false, false, false, false, false, false, false);
 gameController.addScore(eightPins)
 ```
@@ -19,7 +19,7 @@ gameController.getPlayers()
 ```
 
 until the game is over.
-```aidl
+```
 gameController.isGameOver()
 ```
 
