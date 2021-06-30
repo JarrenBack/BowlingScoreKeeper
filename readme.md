@@ -14,7 +14,7 @@ List<Boolean> eightPins = Arrays.asList(true, true, false, false, false, false, 
 gameController.addScore(eightPins)
 ```
 Finally, the players, along with their scores, can be retrieved
-```aidl
+```
 gameController.getPlayers()
 ```
 
